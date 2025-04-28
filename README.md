@@ -18,7 +18,7 @@ An experimental financial management platform featuring role-based access for ad
 
 ## 📦 Installation
 
-```bash
+
 # Clone the repository
 git clone https://github.com/your-username/we-are-billionaire.git
 
@@ -34,6 +34,33 @@ php artisan key:generate
 
 # Set up your database in the .env file, then run migrations
 php artisan migrate
+
+
+## 📸 Screenshots
+
+<picture>
+  <source srcset="screenshot/admin-login.png" media="(min-width: 800px)">
+    <img src="path-to-your-image-fallback.jpg" alt="Fallback image">
+</picture>
+
+<picture>
+  <source srcset="screenshot/admin-dashboard.png" media="(min-width: 800px)">
+    <img src="path-to-your-image-fallback.jpg" alt="Fallback image">
+</picture>
+
+<picture>
+  <source srcset="screenshot/user-login.png" media="(min-width: 800px)">
+    <img src="path-to-your-image-fallback.jpg" alt="Fallback image">
+</picture>
+
+<picture>
+  <source srcset="screenshot/user-dashboard.png" media="(min-width: 800px)">
+    <img src="path-to-your-image-fallback.jpg" alt="Fallback image">
+</picture>
+
+
+
+
 
 
 
