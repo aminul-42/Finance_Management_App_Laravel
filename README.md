@@ -19,20 +19,20 @@ An experimental financial management platform featuring role-based access for ad
 ## 📦 Installation
 
 
-# Clone the repository
+### Clone the repository
 git clone https://github.com/your-username/we-are-billionaire.git
 
-# Navigate into the project directory
+### Navigate into the project directory
 cd we-are-billionaire
 
-# Install dependencies
+### Install dependencies
 composer install
 
-# Copy environment file and generate app key
+### Copy environment file and generate app key
 cp .env.example .env
 php artisan key:generate
 
-# Set up your database in the .env file, then run migrations
+### Set up your database in the .env file, then run migrations
 php artisan migrate
 
 
