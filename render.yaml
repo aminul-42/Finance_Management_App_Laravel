@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: Finance_Management_App_Laravel
+    runtime: docker
+    repo: https://github.com/aminul-42/Finance_Management_App_Laravel
+    region: oregon
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_KEY
+        sync: false
+      - key: DB_CONNECTION
+        value: sqlite
+      - key: DB_DATABASE
+        value: /var/data/database.sqlite
+    disk:
+      name: data
+      mountPath: /var/data
+      sizeGB: 1
