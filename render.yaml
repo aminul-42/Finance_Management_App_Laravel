@@ -1,11 +1,10 @@
 services:
   - type: web
-    name: Finance_Management_App_Laravel
+    name: finance-management-app
     runtime: docker
     repo: https://github.com/aminul-42/Finance_Management_App_Laravel
-    region: oregon
     plan: free
-    dockerfilePath: ./Dockerfile
+    region: oregon
     envVars:
       - key: APP_ENV
         value: production
